@@ -1,0 +1,10 @@
+name: tmp
+on: workflow_dispatch
+
+jobs:
+  tmp:
+    runs-on: ubuntu-latest
+    steps:
+      - name: test
+        run: echo "test"
+        
